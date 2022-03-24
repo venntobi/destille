@@ -1,0 +1,46 @@
+.bg {
+    min-height: 90vh;
+    /* background-image: url("../img/zuTisch.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+
+.navbar-expand-sm {
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+}
+
+.sticky-top {
+    transition: all 0.25s ease-in;
+}
+
+/* style for when sitcky is applied */
+.stuck .navbar.sticky-top {
+    background-color: #222 !important;
+    padding-top: .8rem !important;
+    padding-bottom: .8rem !important;
+}
+
+
+.stuck .navbar.sticky-top .container .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 1rem;
+}
+
+.stuck .navbar.sticky-top .container .navbar-collapse .navbar-nav .nav-item a:hover{
+    color: #ce5f04;
+}
+
+ .navbar.sticky-top .container .navbar-collapse .navbar-nav .nav-item a:hover{
+    color: #222;
+}
+
+
+.footer {
+    min-height: 20vh;
+    background-size: cover;
+    background-position: bottom center;
+    background-color: #222 !important;
+}

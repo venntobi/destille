@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{%block title %}Produkte {% endblock %}
+
+{% block content %} 
+
+  <!-- DISCOVER -->
+  <section class="pt-7 pt-md-9">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4">
+
+          <!-- Media -->
+          <div class="media-decoration media-decoration-1 mb-5 mb-md-0">
+
+            <!-- Border -->
+            <div class="media-decoration-border" data-jarallax-element="-40"></div>
+
+            <!-- Image -->
+            <img class="media-decoration-img img-fluid" src="{{url_for('static', filename='/img/gin2.jpg')}}" alt="...">
+
+          </div>
+
+        </div>
+        <div class="col-md-5 align-self-center mx-auto">
+
+          <!-- Heading -->
+          <h2 class="mb-2">
+            <em>Always</em> amazing experience
+          </h2>
+
+          <!-- Text -->
+          <p class="mb-0">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias veritatis nisi, consequatur, laborum libero a neque ducimus. Porro rem illum quo nostrum quisquam asperiores. Possimus facilis velit, voluptatibus!
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DISCOVER -->
+  <section class="py-7 py-md-9">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 order-md-3">
+
+          <!-- Media -->
+          <div class="media-decoration media-decoration-1 mb-5 mb-md-0">
+
+            <!-- Solid -->
+            <div class="media-decoration-solid" data-jarallax-element="-40"></div>
+
+            <!-- Border -->
+            <div class="media-decoration-border" data-jarallax-element="-40"></div>
+
+            <!-- Image -->
+            <img class="media-decoration-img img-fluid" src="{{url_for('static', filename='/img/gin1.jpg')}}" alt="...">
+
+          </div>
+
+        </div>
+        <div class="col-md-5 order-md-1 align-self-center mx-auto">
+
+          <!-- Heading -->
+          <h2 class="mb-4">
+            <em>Beautiful</em> outdoor seating
+          </h2>
+
+          <!-- Text -->
+          <p class="mb-0">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quae similique asperiores consequatur! Nihil temporibus qui enim. Accusamus voluptates a, et quidem! Quo, et?
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+{% endblock%}
