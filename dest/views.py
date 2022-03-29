@@ -5,7 +5,7 @@ views = Blueprint("views", __name__)
 @views.route("/")
 def home():
     background_image = "haus.jpeg"
-    return render_template("base.html", background_image=background_image)
+    return render_template("home.html", background_image=background_image)
 
 @views.route("/produkte")
 def produkte():
@@ -14,7 +14,7 @@ def produkte():
 
 @views.route("/philosophie")
 def philosophie():
-    background_image = "derGin.jpeg"
+    background_image = "apple.jpg"
     return render_template("philosophie.html", background_image=background_image)
 
 @views.route("/verkostungen")

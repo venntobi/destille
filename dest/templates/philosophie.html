@@ -1,3 +1,36 @@
 {% extends "base.html" %}
 
 {%block title %} Philosophie {% endblock %}
+
+{% block content %} 
+
+<div class="container">
+  <div class="row">
+    <div class="col-4">
+    
+     <h2><em>Regionalität und Saisonalität als Basis</em></h2>
+      <p>
+        In meiner kleinen Brennerei direkt neben meinem Haus veredle ich die Obstsorten meiner eigenen Streuobstwiese 
+        und der Gärten und Felder aus der Region. Dabei ist mir die  höchste Sorgfalt und die beste Qualität meiner 
+        Rohstoffe von größter Bedeutung.Dieses Qualitätsbewusstsein zieht sich vom Anbau des Obstes, über die Auswahl 
+        der Grundstoffe und das sorgsame Brennen bis zur Abfüllung in der Flasche.  Ich verzichte in meiner 
+        gesamten Produktion selbstverständlich auf den Einsatz von Konzentraten, Aroma- und Farbstoffen oder 
+        Geschmacksverstärkern. Ich glaube fest daran, dass die einwandfreie Qualität der Grundstoffe und 
+        handwerkliches Können alles ist, was ein guter Brand benötigt. Da ich somit auch von den Umweltbedingungen 
+        abhängig bin, kann ich in jedem Jahr nur eine bestimmte Anzahl an Flaschen pro Brand herstellen und anbieten. 
+        Dadurch lassen sich leichte Unterschiede in den Jahrgängen nicht vermeiden. Trotzdem stehe ich hinter jeder abgefüllten
+        Flasche mit meinem Namen.
+        </p> 
+        <p>
+        Überzeugen Sie sich selbst und verkosten Sie meine selbstgebrannten Destillate. 
+        </p>
+    </div>
+    <div class="col"></div>
+    <div class="col-4">  
+      <img class="media-decoration-img img-fluid" src="{{url_for('static', filename='/img/destille1.jpeg')}}" alt="...">
+    </div>
+    <div class="col"></div>
+</div>
+</div>
+
+{% endblock%}

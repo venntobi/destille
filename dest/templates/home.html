@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{%block title %} AS Destillerie {% endblock %}
+
+{% block content %} 
+
+
+<br>
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-4">
+            <h2><em>Herzlich Willkommen bei mir Zuhause</em></h2>
+            <br>
+        </div>
+        <div class="col"></div>
+        <div class="col-4">  
+            
+        </div>
+        <div class="col"></div>
+     </div>
+  
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-4">
+     <br>
+      <p>
+        In meiner kleinen Brennerei direkt neben meinem Haus brenne ich verschiedenste Destillate.
+        Das Brennrecht habe ich von meinem Schwiedervater geerbt, den ich schon jahrelang fasziniert
+        bei der Kunst des Obstbrennes beobachtet habe. Jetzt habe ich es mir zur Aufgabe gemacht diesem 
+        Erbe gerecht zu werden. Mit der Hilfe meiner Familie sortiere und wasche ich das von Hand geerntete
+        Obst aus der Region bevor ich es einmaische und schließlich in unserer "Edeltraut" brenne.
+        </p> 
+        <p>
+        Überzeugen Sie sich selbst und verkosten Sie meine selbstgebrannten Destillate. 
+        </p>
+    </div>
+    <div class="col"></div>
+    <div class="col-4">  
+    <br>
+      <img class="media-decoration-img img-fluid" src="{{url_for('static', filename='/img/angelika_scheid_2.jpg')}}" alt="...">
+    </div>
+    <div class="col"></div>
+</div>
+<br>
+<br>
+<div class="row">
+    <div class="col"></div>
+    <div class="col-4">  
+      <img class="media-decoration-img img-fluid" src="{{url_for('static', filename='/img/gin3.jpg')}}" alt="...">
+    </div>
+    <div class="col"></div>
+    <div class="col-4">
+      <h2>
+        <em>Mein Angebot</em> 
+      </h2>
+      <br>
+      <p class="mb-0">
+      Neben dem reinen Verkauf meiner Spirituosen biete ich ebenfalls Verkostungen an. Falls Sie nicht nur zum Trinken kommen
+      wollen, reiche ich Ihnen dazu gerne Gebäck, herzhafte Snacks oder auch ein reichhaltiges Mehrgangmenü. 
+      </p>
+    </div>
+    <div class="col"></div>
+ </div>
+</div>
+
+{% endblock%}
