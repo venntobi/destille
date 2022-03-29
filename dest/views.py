@@ -14,7 +14,7 @@ def produkte():
 
 @views.route("/philosophie")
 def philosophie():
-    background_image = "apple.jpg"
+    background_image = "pineapple.jpg"
     return render_template("philosophie.html", background_image=background_image)
 
 @views.route("/verkostungen")
