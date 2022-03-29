@@ -6,3 +6,4 @@
         document.documentElement.setAttribute('class', 'stuck');
     };
 })).observe(document.querySelector('.trigger'));
+

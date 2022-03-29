@@ -1,5 +1,10 @@
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .bg {
-    min-height: 90vh;
+    min-height: 60vh;
     /* background-image: url("../img/zuTisch.jpg"); */
     background-size: cover;
     background-position: center;
@@ -23,7 +28,6 @@
     padding-bottom: .8rem !important;
 }
 
-
 .stuck .navbar.sticky-top .container .navbar-collapse .navbar-nav .nav-item .nav-link {
     color: white;
     font-size: 1rem;
@@ -33,10 +37,38 @@
     color: #ce5f04;
 }
 
+.stuck .navbar.sticky-top .container .navbar-collapse .ms-auto .nav-item .navbar-insta-black{
+    display: none;
+  }
+
+.stuck .navbar.sticky-top .container .navbar-collapse .ms-auto .nav-item .navbar-insta-white{
+    display: inline;
+  }
+
+ .navbar.sticky-top .container .navbar-collapse .ms-auto .nav-item .navbar-insta-black{
+    display: inline;
+  }
+
+ .navbar.sticky-top .container .navbar-collapse .ms-auto .nav-item .navbar-insta-white{
+    display: none;
+  }
+
  .navbar.sticky-top .container .navbar-collapse .navbar-nav .nav-item a:hover{
     color: #222;
 }
 
+.stuck .navbar.sticky-top .container .navbar-toggler {
+    border-color: #ce5f04;
+    opacity: 0.35;
+    /* box-shadow: white; */
+}
+
+
+.stuck .navbar.sticky-top .container .navbar-toggler .navbar-toggler-icon {
+    border-color: white;
+    box-shadow: white;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 
 .footer {
     min-height: 20vh;
@@ -44,3 +76,4 @@
     background-position: bottom center;
     background-color: #222 !important;
 }
+
