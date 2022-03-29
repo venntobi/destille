@@ -24,8 +24,8 @@ html {
 /* style for when sitcky is applied */
 .stuck .navbar.sticky-top {
     background-color: #222 !important;
-    /* padding-top: 2rem !important;
-    padding-bottom: 2rem !important; */
+    padding-top: .8rem !important;
+    padding-bottom: .8rem !important;
 }
 
 .stuck .navbar.sticky-top .container .navbar-collapse .navbar-nav .nav-item .nav-link {
